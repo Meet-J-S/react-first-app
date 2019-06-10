@@ -1,0 +1,23 @@
+.body {
+  background-color: #a3f6fb;
+  height: 150vh;
+
+  .table-root {
+    background-color: #f6fb8e;
+    padding: 50px 50px 50px 50px;
+
+    .table {
+      background-color: #3ee0fb;
+    }
+  }
+}
+
+.customBtn {
+  width: 90px;
+  transition: all 0.35s ease-in-out;
+
+  &:hover {
+    width: 110px;
+    height: 30px;
+  }
+}
